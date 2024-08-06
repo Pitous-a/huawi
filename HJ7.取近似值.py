@@ -9,7 +9,7 @@ import sys
 
 
 def f(n):
-    print(round(float(n)))
+    print(int(float(n) + 0.5))
 
 
 # 读取文件路径
