@@ -6,14 +6,16 @@
 # @nc code=start
 
 import sys
-from pin import cin
 
-
-def read_input():
-    n = cin()
-    for i in range(int(n)):
-        s = input().split()
-    return data
+a = input()
+a = a[::-1]
+num = []
+for i in a:
+    if i in num:
+        continue
+    else:
+        num.append(i)
+        print(i, end="")
 
 
 # @nc code=end
